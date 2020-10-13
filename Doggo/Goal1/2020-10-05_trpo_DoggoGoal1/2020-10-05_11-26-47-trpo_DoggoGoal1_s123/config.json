@@ -27,13 +27,13 @@
     "ent_reg":	0.0,
     "env_fn":	"<function main.<locals>.<lambda> at 0x7f798c656510>",
     "epochs":	1666,
-    "exp_name":	"trpo_DoggoGoal1",
+    "exp_name":	"DoggoGoal1-trpo",
     "gamma":	0.99,
     "lam":	0.97,
     "logger":	{
         "<safe_rl.utils.logx.EpochLogger object at 0x7f798c65e160>":	{
             "epoch_dict":	{},
-            "exp_name":	"trpo_DoggoGoal1",
+            "exp_name":	"DoggoGoal1-trpo",
             "first_row":	true,
             "log_current_row":	{},
             "log_headers":	[],
@@ -46,7 +46,7 @@
         }
     },
     "logger_kwargs":	{
-        "exp_name":	"trpo_DoggoGoal1",
+        "exp_name":	"DoggoGoal1-trpo",
         "output_dir":	"/home/peng/Documents/saferl/safety-starter-agents/data/2020-10-05_trpo_DoggoGoal1/2020-10-05_11-26-47-trpo_DoggoGoal1_s123"
     },
     "max_ep_len":	1000,

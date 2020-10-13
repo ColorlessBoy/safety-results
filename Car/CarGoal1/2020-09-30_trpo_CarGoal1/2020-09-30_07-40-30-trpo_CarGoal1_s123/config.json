@@ -27,13 +27,13 @@
     "ent_reg":	0.0,
     "env_fn":	"<function main.<locals>.<lambda> at 0x7fbf09ae8400>",
     "epochs":	333,
-    "exp_name":	"trpo_CarGoal1",
+    "exp_name":	"CarGoal1-trpo",
     "gamma":	0.99,
     "lam":	0.97,
     "logger":	{
         "<safe_rl.utils.logx.EpochLogger object at 0x7fbf09aef160>":	{
             "epoch_dict":	{},
-            "exp_name":	"trpo_CarGoal1",
+            "exp_name":	"CarGoal1-trpo",
             "first_row":	true,
             "log_current_row":	{},
             "log_headers":	[],

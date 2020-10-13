@@ -31,13 +31,13 @@
     "ent_reg":	0.0,
     "env_fn":	"<function main.<locals>.<lambda> at 0x7fdeacea7400>",
     "epochs":	333,
-    "exp_name":	"cpo_CarGoal1",
+    "exp_name":	"CarGoal1-cpo",
     "gamma":	0.99,
     "lam":	0.97,
     "logger":	{
         "<safe_rl.utils.logx.EpochLogger object at 0x7fdeaceae198>":	{
             "epoch_dict":	{},
-            "exp_name":	"cpo_CarGoal1",
+            "exp_name":	"CarGoal1-cpo",
             "first_row":	true,
             "log_current_row":	{},
             "log_headers":	[],
@@ -50,7 +50,7 @@
         }
     },
     "logger_kwargs":	{
-        "exp_name":	"cpo_CarGoal1",
+        "exp_name":	"CarGoal1-cpo",
         "output_dir":	"/home/peng/Documents/saferl/safety-starter-agents/data/2020-09-30_cpo_CarGoal1/2020-09-30_20-19-39-cpo_CarGoal1_s123"
     },
     "max_ep_len":	1000,

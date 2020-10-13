@@ -31,13 +31,13 @@
     "ent_reg":	0.0,
     "env_fn":	"<function main.<locals>.<lambda> at 0x7fc0ec004510>",
     "epochs":	333,
-    "exp_name":	"cpo_PointGoal1",
+    "exp_name":	"PointGoal1-cpo",
     "gamma":	0.99,
     "lam":	0.97,
     "logger":	{
         "<safe_rl.utils.logx.EpochLogger object at 0x7fc0ec00b1d0>":	{
             "epoch_dict":	{},
-            "exp_name":	"cpo_PointGoal1",
+            "exp_name":	"PointGoal1-cpo",
             "first_row":	true,
             "log_current_row":	{},
             "log_headers":	[],
@@ -50,7 +50,7 @@
         }
     },
     "logger_kwargs":	{
-        "exp_name":	"cpo_PointGoal1",
+        "exp_name":	"PointGoal1-cpo",
         "output_dir":	"/home/peng/Documents/saferl/safety-starter-agents/data/2020-09-29_cpo_PointGoal1/2020-09-29_20-40-38-cpo_PointGoal1_s123"
     },
     "max_ep_len":	1000,
