@@ -1,0 +1,56 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            400,
+            300
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	0.1,
+    "batch_size":	100,
+    "beta":	0.0,
+    "cost_scale":	0.0,
+    "device":	"cuda:2",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7fd8c3c34f28>",
+    "epochs":	2000,
+    "exp_name":	"DoggoGoal3-gac",
+    "expand_batch":	100,
+    "gamma":	0.99,
+    "kernel":	"energy",
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7fd89079ae48>":	{
+            "epoch_dict":	{},
+            "exp_name":	"DoggoGoal3-gac",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/peng/Documents/saferl/spinningup/data/DoggoGoal3-gac/DoggoGoal3-gac_s234",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/peng/Documents/saferl/spinningup/data/DoggoGoal3-gac/DoggoGoal3-gac_s234/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"DoggoGoal3-gac",
+        "output_dir":	"/home/peng/Documents/saferl/spinningup/data/DoggoGoal3-gac/DoggoGoal3-gac_s234"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "mix_reward":	false,
+    "model_file":	null,
+    "noise":	"gaussian",
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "polyak_pi":	0.0,
+    "replay_size":	1000000,
+    "reward_scale":	10.0,
+    "save_each_model":	false,
+    "save_freq":	1,
+    "seed":	234,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	10000,
+    "update_every":	50
+}
