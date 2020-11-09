@@ -9,16 +9,16 @@
     "alpha":	0.1,
     "batch_size":	100,
     "beta":	0.0,
-    "cost_scale":	1.0,
+    "cost_scale":	0.0,
     "device":	"cuda:2",
-    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7fa8ada1df28>",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f318ea57f28>",
     "epochs":	2000,
     "exp_name":	"DoggoGoal1-gac",
     "expand_batch":	100,
     "gamma":	0.99,
     "kernel":	"energy",
     "logger":	{
-        "<spinup.utils.logx.EpochLogger object at 0x7fa87c584e48>":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f3153cacf98>":	{
             "epoch_dict":	{},
             "exp_name":	"DoggoGoal1-gac",
             "first_row":	true,
@@ -46,10 +46,11 @@
     "polyak_pi":	0.0,
     "replay_size":	1000000,
     "reward_scale":	10.0,
+    "save_each_model":	true,
     "save_freq":	100,
     "seed":	123,
     "start_steps":	10000,
     "steps_per_epoch":	4000,
-    "update_after":	1000,
+    "update_after":	10000,
     "update_every":	50
 }
