@@ -1,0 +1,53 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            400,
+            300
+        ]
+    },
+    "act_noise":	0.1,
+    "actor_critic":	"MLPActorCritic",
+    "batch_size":	100,
+    "cost_scale":	0.0,
+    "device":	"cuda:0",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7fc439a73f28>",
+    "epochs":	2000,
+    "exp_name":	"PointGoal1-td3",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7fc4398a4240>":	{
+            "epoch_dict":	{},
+            "exp_name":	"PointGoal1-td3",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/peng/Documents/saferl/spinningup/data/PointGoal1-td3/PointGoal1-td3_s123",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/peng/Documents/saferl/spinningup/data/PointGoal1-td3/PointGoal1-td3_s123/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"PointGoal1-td3",
+        "output_dir":	"/home/peng/Documents/saferl/spinningup/data/PointGoal1-td3/PointGoal1-td3_s123"
+    },
+    "max_ep_len":	1000,
+    "mix_reward":	false,
+    "noise_clip":	0.5,
+    "num_test_episodes":	10,
+    "pi_lr":	0.001,
+    "policy_delay":	2,
+    "polyak":	0.995,
+    "q_lr":	0.001,
+    "replay_size":	1000000,
+    "reward_scale":	10.0,
+    "save_freq":	1,
+    "seed":	123,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "target_noise":	0.2,
+    "update_after":	1000,
+    "update_every":	50
+}
